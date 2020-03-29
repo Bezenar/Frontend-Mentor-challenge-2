@@ -1,0 +1,41 @@
+//________________________________________________________________________________IMPORT PARTS____//
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,700&display=swap");
+@import "./html-coding/reset";
+@import "./html-coding/colors";
+@import "./html-coding/resp";
+@import "./html-coding/widths";
+@import "./html-coding/flex";
+//___________________________________________________________________________________VARIABLES____//
+//___________________________________________________________________________________Container____//
+$container-width: 90%;
+$max-container-width: 1366px;
+//___________________________________________________________________________________Container____//
+//_______________________________________________________________________________________Fonts____//
+$mainFont: "Poppins", sans-serif;
+$fontSize: 15px;
+//_______________________________________________________________________________________Fonts____//
+//___________________________________________________________________________________VARIABLES____//
+body {
+  font-family: $mainFont;
+  font-size: $fontSize;
+  font-weight: normal;
+  background-color: $veryLightGray;
+}
+.container {
+  width: $container-width;
+  max-width: $max-container-width;
+  margin: 0 auto;
+}
+.h-full {
+  height: 100%;
+}
+footer {
+  text-align: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
